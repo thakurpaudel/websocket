@@ -1,0 +1,23 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thakur Paudel",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "express": "^4.19.2",
+    "utf-8-validate": "^6.0.4",
+    "ws": "^8.18.0"
+  },
+  "description": ""
+}
